@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenLocal()
+    }
+    plugins {
+        id 'com.google.protobuf' version protobufPluginVersion
+    }
+}
+rootProject.name = 'trading-domain'
